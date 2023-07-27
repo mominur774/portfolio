@@ -10,8 +10,8 @@ import {
 const Navbar = () => {
   return (
     <div className="container pt-3">
-      <div className='d-flex justify-content-between align-items-start'>
-        <div className='intro mb-5'>
+      <div className='d-flex flex-wrap justify-content-between align-items-start mb-5'>
+        <div className='intro mb-4'>
           <h2 className='name'>Mominur Rahman</h2>
           <span className='designation'>A Full-stack Developer</span>
         </div>

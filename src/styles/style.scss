@@ -174,3 +174,12 @@
     }
   }
 }
+
+
+@media screen and (max-width: 500px) {
+  .nav-pills {
+    .nav-link {
+      padding: 8px;
+    }
+  }
+}

@@ -39,7 +39,7 @@ const Contact = () => {
               <form action="">
                 <div className="form-group mb-3">
                   <div className="row">
-                    <div className="col-lg-6 col-md-6 col-sm-12">
+                    <div className="col-lg-6 col-md-6 col-sm-12 mb-3">
                       <input
                         type="text"
                         name="first_name"
