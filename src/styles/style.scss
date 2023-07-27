@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-content {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../../public/bg1.jpg');
+  background-repeat: no-repeat, repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  overflow-y: scroll;
+  color: #fff;
+}
+
+.intro {
+  .name {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .designation {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+
+.nav-pills {
+
+  .nav-link {
+    border: 3px solid transparent !important;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    transition: 0.45s;
+    border-radius: 0 !important;
+
+    &:hover {
+      color: #0bb3b0 !important;
+    }
+
+    &.active {
+      border-top: 3px solid #0bb3b0 !important;
+      border-radius: 0;
+      background: transparent !important;
+      color: #0bb3b0 !important;
+    }
+  }
+}
+
+.about {
+  .description {
+    span {
+      line-height: 30px;
+      text-align: justify;
+      font-size: 16px;
+      letter-spacing: 0.6px;
+    }
+  }
+
+  .video-content {
+    .video {
+      width: 100%;
+      height: 250px;
+      background: #000;
+    }
+  }
+}
+
+.skills {
+  .title {
+    .separator {
+      height: 4px;
+      width: 7%;
+      background: #0bb3b0;
+    }
+  }
+
+  .skill {
+    margin-bottom: 20px;
+
+    .progress {
+      border-radius: 0;
+
+      .progress-bar {
+        &.main {
+          background: #547d2d;
+        }
+
+        &.others {
+          background: #258572;
+        }
+      }
+    }
+
+    .skill-label {
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+  }
+}
+
+.social-icons {
+  .social-icon {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.35s;
+
+    .icon {
+      color: #000;
+    }
+
+    &:hover {
+      background: #cfcfcf;
+      box-shadow: rgba(111, 110, 110, 0.4) 0px 3px 20px;
+    }
+  }
+
+}
+
+.contact {
+  .icon-box {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    border-radius: 50%;
+
+    .icon {
+      color: #000;
+      font-size: 24px;
+
+      &.phone {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .contact-info {
+    span {
+      font-size: 16px;
+    }
+  }
+
+  form {
+    .form-control {
+      border-radius: 0;
+    }
+
+    .btn {
+      border-radius: 0;
+    }
+  }
+}
+
+.projects {
+  .project {
+    text-decoration: none;
+    color: #fff;
+
+    img {
+      height: 200px;
+    }
+  }
+}
