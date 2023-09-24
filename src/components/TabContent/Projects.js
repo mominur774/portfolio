@@ -5,8 +5,8 @@ import Link from 'next/link';
 const Projects = () => {
   return (
     <div className='projects mb-5'>
-      <span className='d-block mb-5 text-center'>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+      <span className='d-block mb-5'>
+      As a Full Stack Developer with 1.5+ years of experience, my approach to every project is rooted in a passion for innovation and problem-solving. I thrive on the challenge of transforming ideas into user-centric solutions. Here's how I approach projects
       </span>
       <div className="row">
         {projects.length > 0 && projects.map((project, idx) => (
