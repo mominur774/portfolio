@@ -7,6 +7,8 @@ import {
   BsInstagram
 } from 'react-icons/bs';
 
+import Link from 'next/link';
+
 const Navbar = () => {
   return (
     <div className="container pt-3">
@@ -16,21 +18,21 @@ const Navbar = () => {
           <span className='designation'>A Full-stack Developer</span>
         </div>
         <div className='social-icons d-flex gap-3'>
-          <div className='social-icon'>
+          <Link href="https://github.com/mominur774" target='_blank' className='social-icon'>
             <BsGithub className='icon' />
-          </div>
-          <div className='social-icon'>
+          </Link>
+          <Link href="https://www.linkedin.com/in/mominur-rahman-bb0768211/" target='_blank' className='social-icon'>
             <BsLinkedin className='icon' />
-          </div>
-          <div className='social-icon'>
+          </Link>
+          <Link href="https://www.facebook.com/mdmominur.islam.18400/" target='_blank' className='social-icon'>
             <BsFacebook className='icon' />
-          </div>
+          </Link>
           <div className='social-icon'>
             <BsInstagram className='icon' />
           </div>
-          <div className='social-icon'>
+          <Link href="https://stackoverflow.com/users/15272421/mominur-rahman" target='_blank' className='social-icon'>
             <BsStackOverflow className='icon' />
-          </div>
+          </Link>
         </div>
       </div>
     </div>

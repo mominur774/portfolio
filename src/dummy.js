@@ -3,16 +3,16 @@ import project2 from '../public/projects/project2.png';
 import project3 from '../public/projects/project3.jpg';
 
 export const majorSkills = [
-  { "label": "Python", "level": 50 },
-  { "label": "Django", "level": 80 },
-  { "label": "Django Rest Framework", "level": 80 },
+  { "label": "Python", "level": 70 },
+  { "label": "Django", "level": 90 },
+  { "label": "Django Rest Framework", "level": 90 },
   { "label": "Flask", "level": 70 },
   { "label": "FastAPI", "level": 50 },
   { "label": "Javascript", "level": 50 },
   { "label": "React js", "level": 90 },
   { "label": "NEXT js", "level": 70 },
   { "label": "HTML", "level": 90 },
-  { "label": "CSS", "level": 65 },
+  { "label": "CSS", "level": 80 },
 ]
 
 export const otherSkills = [

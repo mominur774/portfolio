@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="contact mb-5">
       <div className="row">
         <div className="col-lg-10 mx-auto">
-          <span className='d-block text-center mb-5'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel officiis temporibus perspiciatis iste, culpa laudantium incidunt doloribus dolores.</span>
+          <span className='d-block text-center mb-5'>I am always open to new opportunities and collaborations. If you're looking for a passionate Full Stack Developer to join your team or have an exciting project in mind, feel free to reach out.</span>
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6 col-sm-12 mt-5">
               <div className='d-flex align-items-center gap-2 mb-4'>
